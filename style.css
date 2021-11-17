@@ -2,6 +2,12 @@
   margin: 0px;
   padding: 0px;
 }
+body {
+  background-image: url("nil.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
 .nav-menu {
   float: right;
   list-style-type: none;
