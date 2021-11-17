@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header {
+  background-image: linear-gradient(black, red);
+  box-sizing: content-box;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  /* border-radius: 15px; */
+}
+h1 {
+  font-weight: 200px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  justify-content: center;
+  margin-left: 500px;
+  color: aliceblue;
+}
+.menu li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu li a {
+  color: beige;
+}
