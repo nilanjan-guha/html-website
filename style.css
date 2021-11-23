@@ -25,9 +25,11 @@ body {
   font-size: 20px;
 }
 .nav-menu li a:hover {
-  border: 1px, solid;
+  color: red;
   border-radius: 15%;
-  background-color: seagreen;
+}
+.nav-menu li a:active {
+  color: green;
 }
 .tagline {
   position: absolute;

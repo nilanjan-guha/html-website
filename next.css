@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
+
 .header {
   background-image: linear-gradient(black, red);
   box-sizing: content-box;
@@ -9,20 +10,127 @@
   padding-top: 50px;
   /* border-radius: 15px; */
 }
-h1 {
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+.header h1 {
   font-weight: 200px;
   font-family: Georgia, "Times New Roman", Times, serif;
   justify-content: center;
-  margin-left: 500px;
+  /* margin-left: 500px; */
   color: aliceblue;
+  text-align: center;
 }
-.menu li {
+.header li {
   display: inline-block;
   padding: 10px;
   font-size: 20px;
   font-weight: bold;
+  list-style-type: disc;
 }
 
-.menu li a {
+.header li a {
   color: beige;
+  text-decoration: none;
+}
+.header li a:hover {
+  color: black;
+}
+/* .header li a:visited {
+  color: yellow;
+} */
+.b2 li a {
+  color: wheat;
+  text-decoration: none;
+  padding-left: 20px;
+}
+.my-form {
+  padding: 20px;
+}
+.form-group {
+  padding-bottom: 15px;
+}
+.my-form label {
+  display: block;
+  color: #fff;
+}
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 50%;
+}
+.my-form input[type="email"],
+.my-form textarea {
+  padding: 8px;
+  width: 50%;
+}
+.my-form input[type="password"],
+.my-form textarea {
+  padding: 8px;
+  width: 50%;
+}
+.button {
+  background-color: #627d77;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+.header2 {
+  text-align: center;
+  padding: 32px;
+  color: #fff;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  /* border: 1px solid red; */
+  padding-left: 250px;
+  padding-top: 50px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.img {
+  width: 25%;
+  float: right;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 20px;
+  margin-top: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(3, 3, 3, 0.19);
+  margin-bottom: 25px;
+}
+.img:hover {
+  box-shadow: 0 0 2px 1px rgba(206, 6, 99, 0.623);
 }
