@@ -19,6 +19,7 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
 }
+
 .header h1 {
   font-weight: 200px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -81,10 +82,13 @@ body {
   padding: 10px 15px;
   border: none;
 }
+
 .header2 {
   text-align: center;
-  padding: 32px;
+  padding: 50px;
+  /* border: 1px solid red; */
   color: #fff;
+  padding-left: 300px;
 }
 .row {
   display: flex;
@@ -133,4 +137,39 @@ body {
 }
 .img:hover {
   box-shadow: 0 0 2px 1px rgba(206, 6, 99, 0.623);
+}
+.elem h1 {
+  text-align: center;
+  color: #fff;
+  margin-top: 100px;
+  /* border: 1px solid red; */
+  font-family: sans-serif;
+}
+.elem2 {
+  margin: 80px;
+  width: 80%;
+}
+.elem2 p {
+  color: #fff;
+  padding-top: 10px;
+}
+.elem2 ul li {
+  color: #fff;
+  font-size: xx-large;
+}
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
+li::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+::marker {
+  color: yellow;
+  font-size: 23px;
+}
+::selection {
+  color: red;
+  background: yellow;
 }
